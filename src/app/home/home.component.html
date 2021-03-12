@@ -1,0 +1,13 @@
+<div class="area-container" > 
+
+  <div class="label">
+    Topic Name
+    <input type="text" [(ngModel)]="topicName" name="topicname">
+  </div>
+
+  <textarea rows="20" cols="100" [(ngModel)]="selectedValue" name="message"></textarea >
+</div>
+
+<div class="button-container">
+  <button class="button button2" (click)="produce()">Produce</button>
+</div>
