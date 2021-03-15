@@ -7,9 +7,10 @@ import { HomeComponent } from './home.component';
 import { SharedModule } from '../shared/shared.module';
 import { FormsModule } from '@angular/forms';
 import {SplitterModule} from "primeng/splitter";
-import { ProducerComponent } from './producer/producer.component'
+import { ProducerComponent } from './producer/producer.component';
+import { DatabaseComponent } from './database/database.component'
 @NgModule({
-  declarations: [HomeComponent, ProducerComponent],
+  declarations: [HomeComponent, ProducerComponent, DatabaseComponent],
   imports: [
     SplitterModule,
     CommonModule,
