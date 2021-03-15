@@ -1,0 +1,21 @@
+<div class="main-container">
+
+    <div class="area-container">
+        <h4 style="text-align:center;margin-top:0px">
+            Producer
+        </h4>
+        <div class="label">
+            Topic Name
+            <input type="text" [(ngModel)]="topicName" name="topicname">
+            <div class="button-container">
+                <button class="button button2" (click)="produce()">Produce</button>
+            </div>
+        </div>
+
+
+        <textarea class="textarea" [(ngModel)]="selectedValue" name="message"></textarea>
+    </div>
+
+
+
+</div>

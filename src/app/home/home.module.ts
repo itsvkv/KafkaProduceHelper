@@ -6,10 +6,12 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { SharedModule } from '../shared/shared.module';
 import { FormsModule } from '@angular/forms';
-
+import {SplitterModule} from "primeng/splitter";
+import { ProducerComponent } from './producer/producer.component'
 @NgModule({
-  declarations: [HomeComponent],
+  declarations: [HomeComponent, ProducerComponent],
   imports: [
+    SplitterModule,
     CommonModule,
     SharedModule,
     HomeRoutingModule,

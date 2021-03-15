@@ -1,0 +1,55 @@
+:host {
+    height: 100%;
+    width: 100%;
+}
+.area-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.main-container {
+    height: 100%;
+    width: 100%;
+}
+.textarea{
+    height: 98%;
+    width: 100%;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #4caf50;
+} /* Green */
+.button2 {
+    background-color: #008cba;
+} /* Blue */
+
+.button-container {
+    display: flex;
+    flex-direction: row-reverse;
+    float: right;
+}
+
+.label {
+    margin-bottom: 10px;
+}
+input[type="text"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

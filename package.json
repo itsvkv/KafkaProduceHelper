@@ -41,7 +41,9 @@
     "lint": "ng lint"
   },
   "dependencies": {
-    "kafka-node": "5.0.0"
+    "kafka-node": "5.0.0",
+    "primeicons": "4.1.0",
+    "primeng": "11.3.1"
   },
   "devDependencies": {
     "@angular-builders/custom-webpack": "11.0.0",

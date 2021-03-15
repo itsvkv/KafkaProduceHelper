@@ -1,13 +1,10 @@
-<div class="area-container" > 
 
-  <div class="label">
-    Topic Name
-    <input type="text" [(ngModel)]="topicName" name="topicname">
-  </div>
 
-  <textarea rows="20" cols="100" [(ngModel)]="selectedValue" name="message"></textarea >
-</div>
-
-<div class="button-container">
-  <button class="button button2" (click)="produce()">Produce</button>
-</div>
+<p-splitter [style]="{'height': '100%'}">
+  <ng-template pTemplate>
+    <app-producer></app-producer>
+  </ng-template>
+  <ng-template pTemplate>
+    Panel 2
+  </ng-template>
+</p-splitter>
